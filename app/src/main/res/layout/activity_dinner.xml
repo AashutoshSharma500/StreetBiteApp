@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dinner_Activity"
+    android:orientation="vertical"
+    android:background="#FFC107">
+
+    <TextView
+        android:id="@+id/content_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="casual"
+        android:text="Please Select Below Items to Book Now "
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dinner_day"
+        android:layout_below="@id/content_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:drawableEnd="@android:drawable/arrow_down_float"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="80dp"
+        android:hint="Select items"
+        android:padding="12dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColorHint="#E33E0A"
+        android:textSize="19dp" />
+
+    <Button
+        android:id="@+id/btn-boook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dinner_day"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_lgbackground"
+        android:text="BOOK NOW"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/holo_orange_dark" />
+
+
+</RelativeLayout>

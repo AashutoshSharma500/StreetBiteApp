@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Table_Activity">
+
+    <TextView
+        android:id="@+id/lunch_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="casual"
+        android:text="Please Select Your Table"
+        android:textColor="#FF9800"
+        android:textSize="49dp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/Table_Choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/background_light"
+        android:drawableEnd="@android:drawable/arrow_down_float"
+        android:drawablePadding="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="casual"
+        android:hint="Select Table"
+        android:padding="12dp"
+        android:textColor="#FF9800"
+        android:textColorHint="#E33E0A"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/click_toConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Table_Choice"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_lgbackground"
+        android:text="Click To Confirm"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/holo_orange_dark" />
+
+
+
+</RelativeLayout>
